@@ -27,16 +27,24 @@ let oneDiv = {
 
   return (
     <>
+    <h1>JOKES GENERATOR</h1>
     <div className='w-25 mt-5'>
         <button className='btn btn-dark' onClick={getData}>Get Joke</button>
     </div>
     
+    <div className=''>
+    
     {
-     <p className='text-dark'>{myjoke.setup}</p>
-    }
-    {
+     
+     <div className='text-dark boder border-dark border-2'>
+        <p className='text-dark'>{myjoke.setup}</p>
         <p className='text-dark'>{myjoke.type}</p>
+     </div>
+    
     }
+
+    </div>
+   
     
     </>
   )
