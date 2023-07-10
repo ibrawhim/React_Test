@@ -27,7 +27,7 @@ let oneDiv = {
 
   return (
     <>
-    <h1>JOKES GENERATOR</h1>
+    <h1 className='text-dark'>JOKES GENERATOR</h1>
     <div className='w-25 mt-5'>
         <button className='btn btn-dark' onClick={getData}>Get Joke</button>
     </div>
@@ -36,7 +36,7 @@ let oneDiv = {
     {
       
      <div className='text-dark boder border-dark border-2'>
-        <p className='text-dark text-decoration-underline'>{myjoke.category}</p>
+        <p className='text-dark text-decoration-underline fw-bold'>{myjoke.category}</p>
         <p className='text-dark'>{myjoke.joke}</p>
         <p className='text-dark'>{myjoke.setup}</p>
         <p className='text-dark'>{myjoke.delivery}</p>
