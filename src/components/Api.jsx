@@ -37,9 +37,11 @@ let oneDiv = {
       
      <div className='text-dark boder border-dark border-2'>
         <p className='text-dark text-decoration-underline'>{myjoke.category}</p>
+        <p className='text-dark'>{myjoke.joke}</p>
         <p className='text-dark'>{myjoke.setup}</p>
         <p className='text-dark'>{myjoke.delivery}</p>
      </div>
+    
     
     }
 
