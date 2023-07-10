@@ -32,13 +32,13 @@ let oneDiv = {
         <button className='btn btn-dark' onClick={getData}>Get Joke</button>
     </div>
     
-    <div className=''>
-    
+    <div className='mt-5'>
     {
-     
+      
      <div className='text-dark boder border-dark border-2'>
+        <p className='text-dark text-decoration-underline'>{myjoke.category}</p>
         <p className='text-dark'>{myjoke.setup}</p>
-        <p className='text-dark'>{myjoke.type}</p>
+        <p className='text-dark'>{myjoke.delivery}</p>
      </div>
     
     }
